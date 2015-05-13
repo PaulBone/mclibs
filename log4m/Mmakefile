@@ -1,0 +1,18 @@
+-include  ../../Mmake.common
+-include ../../Mmake.params
+
+INCLUDES=\
+	-I ../concurrency
+
+UNIXLIBS=\
+	-L../concurrency/concurrency	\
+	-lconcurrency
+
+MCFLAGS=$(INCLUDES)
+CFLAGS=$(INCLUDES)
+VPATH=../concurrency:$(MMAKE_VPATH)
+MLLIBS=$(UNIXLIBS)
+
+depend: log4m.depend
+
+default_target: liblog4m

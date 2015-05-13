@@ -1,0 +1,18 @@
+# Basic log4m config file. 
+# See LOG.ini for what else you can do.
+
+[FILE]
+file=LOG_OUTPUT
+
+[STDERR]
+stderr
+
+# [SYSLOG]
+# syslog=daemon
+# ident=log4m
+
+[]
+level=debug
+appenders=FILE,STDERR
+
+# vim: ft=cfg
