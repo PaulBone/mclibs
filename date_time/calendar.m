@@ -1,3 +1,9 @@
+% Copyright (c) Mission Critical IT
+% MIT License
+
+% This file may have already been contributed to the Mercury project and a
+% better, more well-maintained version may be kept there.
+
 :- module calendar.
 
 :- interface.

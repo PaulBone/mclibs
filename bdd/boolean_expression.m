@@ -1,6 +1,8 @@
 %------------------------------------------------------------------------------%
 %
 % Module: boolean_expression
+% Copyright (c) Mission Critical IT
+% MIT License
 % Author: Ludovic Langevine <llg@missioncriticalit.com>
 %
 % Simple representation and implementation of boolean expressions

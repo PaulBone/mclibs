@@ -1,6 +1,8 @@
 %------------------------------------------------------------------------------%
 %
 % Module: test_bdd
+% Copyright (c) Mission Critical IT
+% MIT License
 % Author: Ludovic Langevine <llg@missioncriticalit.com>
 %
 % Random and systematic testing of BDD implementation.

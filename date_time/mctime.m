@@ -1,6 +1,7 @@
 %-----------------------------------------------------------------------
 % Author : P.A. Massey (MC, 1999) 
-% Date   : From PFI project
+% Copyright (c) Mission Critical IT
+% MIT License
 % Purpose: Handling of dates, etc.
 %
 :- module mctime.

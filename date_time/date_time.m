@@ -1,5 +1,7 @@
 %----------------------------------------------------------------------------%
 :- module date_time.
+% Copyright (c) Mission Critical IT
+% MIT License
 % A module for working with date-times and durations conforming to
 % http://www.w3.org/TR/xmlschema-2/.
 %----------------------------------------------------------------------------%

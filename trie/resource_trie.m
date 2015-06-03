@@ -1,5 +1,7 @@
 %-----------------------------------------------------------------------------%
 :- module resource_trie.
+% Copyright (c) Mission Critical IT
+% MIT License
 % A trie with an rdf.resource key.
 %-----------------------------------------------------------------------------%
 

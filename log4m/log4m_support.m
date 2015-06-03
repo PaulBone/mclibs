@@ -1,5 +1,7 @@
 %-----------------------------------------------------------------------------%
 % this module contains functionalities to support typed log4m message logging
+% Copyright (c) Mission Critical Australia Pty Ltd
+% MIT License
 %-----------------------------------------------------------------------------%
 :- module log4m_support.
 

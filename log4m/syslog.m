@@ -2,6 +2,8 @@
 %
 % Low-level syslog interface.
 % Author: Peter Wang <pwa@missioncriticalit.com>
+% Copyright (c) Mission Critical Australia Pty Ltd
+% MIT License
 %
 % You can use this directly or through log4m.
 %

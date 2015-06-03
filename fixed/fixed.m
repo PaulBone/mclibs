@@ -1,5 +1,7 @@
 %------------------------------------------------------------------------------%
 % fixed.m
+% Copyright (c) Mission Critical IT
+% MIT License
 %
 % Implementation of fixed point arithmetic which is equivalent to cobol
 % fixed point arithmetic.

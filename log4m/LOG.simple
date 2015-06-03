@@ -1,5 +1,6 @@
 # Basic log4m config file. 
 # See LOG.ini for what else you can do.
+# This file is free and unencumbered software released into the public domain.
 
 [FILE]
 file=LOG_OUTPUT

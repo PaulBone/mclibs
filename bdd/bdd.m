@@ -1,6 +1,8 @@
 %------------------------------------------------------------------------------%
 %
 % Module: bdd
+% Copyright (c) Mission Critical IT
+% MIT License
 % Author: Ludovic Langevine <llg@missioncriticalit.com>
 %
 % Simple representation and implementation of binary decision diagrams (BDD)

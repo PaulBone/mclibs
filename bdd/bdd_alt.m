@@ -1,4 +1,6 @@
 % An alternative implementation of BDDs
+% Copyright (c) Mission Critical IT
+% MIT License
 % Author: llg
 %
 % Each BDD node is registered by an integer. The correspondance between nodes and integer

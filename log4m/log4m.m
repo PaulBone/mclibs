@@ -2,6 +2,9 @@
 /*
  * NAME
  *   log4m
+ * COPYING
+ *   Copyright (c) Mission Critical Australia Pty Ltd
+ *   MIT License
  * PURPOSE
  *   A module for providing logging services.
  * AUTHOR

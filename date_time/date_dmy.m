@@ -1,4 +1,6 @@
 /****M* date_dmy
+ * Copyright (c) Mission Critical IT
+ * MIT License
  * NAME
  *   utils
  * PURPOSE

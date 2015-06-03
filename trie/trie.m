@@ -1,5 +1,7 @@
 %-----------------------------------------------------------------------------%
 :- module trie.
+% Copyright (c) Mission Critical IT
+% MIT License
 % This module implements tries.  A trie is a fast, string-indexed map.
 % Although tries are implemented in foreign code, they are not destructively
 % updated, so it is safe to refer to old versions of tries.
