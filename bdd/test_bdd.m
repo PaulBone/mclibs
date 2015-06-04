@@ -280,7 +280,7 @@ test_with_single_expression(ValuationsToTest, BooleanExpression, !IO) :-
             s(to_string(120, to_doc(BDD))), s(bool_expr_to_str(SimplifiedExpression))], !IO),
         list.foldl(
             (pred(Valuation::in, !.IO1::di, !:IO1::uo) is det :-
-                RepBDD = evaluate(BDD, Valuation),
+                RepBDD = evaluate(Valuation, BDD),
                 Expected = evaluate(BooleanExpression, Valuation),
                 io.format("%s\t instead of\t%s for valuation:\n\t\t%s\n", [s(string(RepBDD)), s(string(Expected)),
                 s(to_string(120, to_doc(to_assoc_list(Valuation) : assoc_list(_, bool))))], !IO1)
@@ -290,7 +290,7 @@ test_with_single_expression(ValuationsToTest, BooleanExpression, !IO) :-
 :- pred evaluation_not_the_same(boolean_expression(Var)::in, bdd(Var)::in, valuation(Var)::in) is semidet.
 
 evaluation_not_the_same(Expression, BDD, Valuation) :-
-    evaluate(Expression, Valuation) \= evaluate(BDD, Valuation).
+    evaluate(Expression, Valuation) \= evaluate(Valuation, BDD).
 
 :- type binary_tree
     ---> node2(
